@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dati che parlano AI che interpretano</title>
     <link rel="stylesheet" href="styles.css">
+
+    <script>
+        // Salva la posizione di scorrimento nel localStorage
+        window.addEventListener('scroll', function() {
+            localStorage.setItem('scrollPosition', window.scrollY);
+        });
+
+        // Ripristina la posizione di scorrimento quando la pagina viene caricata
+        window.addEventListener('load', function() {
+            var scrollPosition = localStorage.getItem('scrollPosition');
+            if (scrollPosition) {
+                window.scrollTo(0, scrollPosition);
+                localStorage.removeItem('scrollPosition');
+            }
+        });
+    </script>
 </head>
 <body>
     <div class="container">
