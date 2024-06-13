@@ -15,9 +15,6 @@ Dati che Parlano AI che Interpretano è un progetto che esplora come un singolo 
 L’aspetto più affascinante è l’utilizzo dell’intelligenza artificiale per estrapolare i dati dalle fotografie. Il progetto mira a definire una mia identità attraverso i dati estrapolati da script come Face Detect, YOLO e Exif. Per approfondire quanto questi dati possano raccontare su di me, ho utilizzato ChatGPT per interpretare i dati, riconoscere pattern e comportamenti, e definire abitudini. Questo processo non solo rivela dettagli personali, ma mette anche in luce le potenzialità e i limiti dell’intelligenza artificiale nella comprensione e interpretazione dei dati personali.
 
 
-foto 1
-foto 2
-foto 3
 
 
 ## Riferimenti progettuali
