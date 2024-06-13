@@ -4,7 +4,7 @@ Docenti: A. Gysin, G. Profeta
 
 Elaborato 2: Me Myself and AI 
 
-# Titolo progetto
+# Dati che parlano AI che Interpretano
 Autore: Davide Torre  
 [Dati che Parlano AI che Interpretano](https://davidetorre12.github.io/daticheparlano/)
 
@@ -12,7 +12,7 @@ Autore: Davide Torre
 ## Introduzione e tema
 Dati che Parlano AI che Interpretano è un progetto che esplora come un singolo dato possa acquisire presenza e significato all’interno di uno spazio, rappresentando frammenti di vita estrapolati da fotografie. L’atto di esaminare le proprie fotografie, un gesto apparentemente semplice, può esporre inaspettatamente la propria identità privata a terzi. Questo progetto si concentra sull’analisi di come descrizioni, statistiche, date temporali, informazioni e altri dati possano delineare abitudini, caratteristiche, comportamenti o informazioni.
 
-L’aspetto più affascinante è l’utilizzo dell’intelligenza artificiale per estrapolare i dati dalle fotografie. Il progetto mira a definire una mia identità attraverso i dati estrapolati da script come Face Detect, YOLO e Exif. Per approfondire quanto questi dati possano raccontare su di me, ho utilizzato ChatGPT per interpretare i dati, riconoscere pattern e comportamenti, e definire abitudini. Questo processo non solo rivela dettagli personali, ma mette anche in luce le potenzialità e i limiti dell’intelligenza artificiale nella comprensione e interpretazione dei dati personali.
+Un'aspetto affascinante è l’utilizzo dell’intelligenza artificiale per estrapolare i dati dalle fotografie. Il progetto mira a definire una mia identità attraverso i dati estrapolati da script come Face Detect, YOLO e Exif. Per approfondire quanto questi dati possano raccontare su di me, ho utilizzato ChatGPT per interpretare i dati, riconoscere pattern e comportamenti, e definire abitudini. Questo processo non solo rivela dettagli personali, ma mette anche in luce le potenzialità e i limiti dell’intelligenza artificiale nella comprensione e interpretazione dei dati personali.
 
 
 
