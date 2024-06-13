@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Il tuo titolo</title>
+    <!-- Altri elementi head esistenti -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    
+    <a href="index.html">Indietro</a>     </a>
+    <!-- Altri contenuti del corpo esistenti -->
+
+    <!-- Div per il grafico -->
+    <div style="width: 80%; margin: auto;">
+        <canvas id="ageDistributionChart"></canvas>
+    </div>
+
+    <!-- Codice JavaScript per creare il grafico -->
+    <script>
+        var ctx = document.getElementById('ageDistributionChart').getContext('2d');
+        var ageDistributionChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: Array.from({length: 100}, (_, i) => i.toString()),
+                datasets: [{
+                    label: 'Numero di volti',
+                    data: [
+                        0, 1, 0, 2, 3, 6, 5, 14, 19, 29, 49, 75, 70, 68, 78, 89, 99, 88, 100, 111,
+                        136, 134, 118, 128, 135, 137, 151, 118, 124, 124, 126, 116, 117, 95, 112, 94,
+                        75, 85, 68, 96, 85, 74, 59, 58, 73, 58, 50, 63, 48, 49, 43, 45, 51, 46, 51, 
+                        34, 39, 39, 24, 25, 22, 24, 16, 21, 11, 12, 12, 8, 9, 6, 7, 6, 5, 0, 1, 1, 
+                        1, 2, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+                    ],
+                    borderColor: 'rgba(128, 128, 128, 1)',
+                    borderWidth: 0.5,
+                    fill: false,
+                    pointRadius: 5,
+                    pointHoverRadius: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Età'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Numero di volti'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+    <!-- Altri contenuti del corpo esistenti -->
+</body>
+</html>

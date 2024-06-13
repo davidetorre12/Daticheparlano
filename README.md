@@ -35,7 +35,7 @@ L’interfaccia del progetto è strutturata, chiara, semplice e intuitiva, facil
 
 Il progetto utilizza diverse tecnologie per l’analisi e l’interpretazione dei dati fotografici:
 
-	>   Face Detect: Uno script per il rilevamento dei volti nelle immagini.
+	>   Fa Dceetect: Uno script per il rilevamento dei volti nelle immagini.
 	>   YOLO (You Only Look Once): Uno script per il riconoscimento di oggetti che utilizza il Machine Learning.
 	>   Exif: Un formato per la registrazione delle informazioni sugli scatti fotografici.
 	>   ChatGPT: Un modello di intelligenza artificiale sviluppato da OpenAI per l’interpretazione e l’analisi dei dati.

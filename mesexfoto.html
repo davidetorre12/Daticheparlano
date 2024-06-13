@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Distribuzione delle quantità per anno e mese</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <a href="index.html">Indietro</a>     </a>
+    <div style="width: 80%; margin: auto;">
+        <canvas id="quantityChart"></canvas>
+    </div>
+    <script>
+        var ctx = document.getElementById('quantityChart').getContext('2d');
+        var quantityChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [
+                    '2020_1', '2020_11', '2021_0', '2021_1', '2021_2', '2021_3', '2021_4', '2021_5', 
+                    '2021_6', '2021_7', '2021_8', '2021_9', '2021_10', '2021_11', '2022_0', '2022_1', 
+                    '2022_2', '2022_3', '2022_4', '2022_5', '2022_6', '2022_7', '2022_8', '2022_9', 
+                    '2022_10', '2022_11', '2023_0', '2023_1', '2023_2', '2023_3', '2023_4', '2023_5', 
+                    '2023_6', '2023_7', '2023_8', '2023_9', '2023_10', '2023_11', '2024_0', '2024_1', 
+                    '2024_2', '2024_3', '2024_4'
+                ],
+                datasets: [{
+                    label: 'Foto',
+                    data: [
+                        1, 33, 28, 68, 73, 82, 57, 50, 210, 56, 94, 294, 600, 511, 229, 356, 
+                        298, 344, 483, 458, 903, 527, 204, 99, 133, 1724, 188, 153, 67, 245, 293, 296, 
+                        400, 320, 295, 412, 319, 243, 184, 186, 378, 314, 397
+                    ],
+                    borderColor: 'rgba(128, 128, 128, 1)',
+                    borderWidth: 0.5,
+                    fill: false,
+                    pointRadius: 5,
+                    pointHoverRadius: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Anno_Mese'
+                        },
+                        ticks: {
+                            maxRotation: 90,
+                            minRotation: 90
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Foto'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -3,11 +3,12 @@ body {
     font-weight: lighter;
     font-size: 14px;
     margin: 0;
-    padding: 0;
+    padding: 20px; /* Add padding to the body */
+    box-sizing: border-box;
 }
 
 .container {
-    width: 90%;
+    width: calc(100% - 40px); /* Adjust width based on body padding */
     margin: 0 auto;
 }
 
@@ -15,17 +16,25 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    align-items: flex-start; /* Ensure alignment */
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .data-section > div {
-    width: 30%;
+    width: 25%;
     padding: 10px;
     box-sizing: border-box;
 }
 
 .title {
-    font-size: 15px;
-    margin: 3%;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
 }
 
 h2 {
@@ -36,6 +45,18 @@ h3 {
     margin-top: 0;
 }
 
+a { 
+    color: black;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline; /* Aggiunge una sottolineatura al passaggio del mouse, puoi rimuoverla se non la vuoi */
+}
+
+
+
+
 @media (max-width: 768px) {
     .data-section {
         flex-direction: column;
@@ -45,4 +66,20 @@ h3 {
         width: 100%;
         margin-bottom: 10px;
     }
+
+    .container {
+        width: 100%; /* Adjust for mobile view */
+        padding: 0; /* Remove extra padding in container */
+    }
+
+    a {
+        position: fixed;
+        top: 0;
+        width: calc(100% - 20px); /* Adjust width based on body padding */
+        background-color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+        padding: 10px;
+    }
+
+    
 }

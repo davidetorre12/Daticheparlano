@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Distribuzione delle foto per ora</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html">Indietro</a>     </a>
+    <div style="width: 80%; margin: auto;">
+        <canvas id="photoDistributionChart"></canvas>
+    </div>
+    <script>
+        var ctx = document.getElementById('photoDistributionChart').getContext('2d');
+        var photoDistributionChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [
+                    '00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', 
+                    '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', 
+                    '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00'
+                ],
+                datasets: [{
+                    label: 'Numero di foto',
+                    data: [
+                        454, 215, 125, 44, 41, 30, 68, 198, 329, 605, 604, 844, 
+                        756, 833, 894, 821, 816, 671, 550, 691, 1251, 584, 823, 358
+                    ],
+                    borderColor: 'rgba(128, 128, 128, 1)',
+                    borderWidth: 0.5,
+                    fill: false,
+                    pointRadius: 5,
+                    pointHoverRadius: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Ora'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Numero di foto'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
