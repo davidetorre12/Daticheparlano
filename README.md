@@ -6,7 +6,7 @@ Elaborato 2: Me Myself and AI
 
 # Titolo progetto
 Autore: Davide Torre  
-[Dati che Parlano AI che Interpretano](https://ixd-supsi.github.io/2023/esempi/mp_hands/es6/1_landmarks)
+[Dati che Parlano AI che Interpretano](https://davidetorre12.github.io/daticheparlano/)
 
 
 ## Introduzione e tema
