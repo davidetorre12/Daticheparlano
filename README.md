@@ -21,7 +21,6 @@ Un'aspetto affascinante è l’utilizzo dell’intelligenza artificiale per estr
 Il progetto è stato sviluppato utilizzando script come Face Detect, YOLO e Exif. Durante il corso di interaction design, i docenti hanno fornito supporto e guida su come applicare queste tecnologie per l’analisi dei dati fotografici.
 
 
-https://user-images.githubusercontent.com/6561331/236182302-68a6bd12-7b83-4d19-b83e-c9b7db795881.mp4
 
 
 ## Design dell’interfraccia e modalià di interazione
