@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.data-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.data-section > div {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 15px;
+    margin: 3%;
+}
+
+h2 {
+    font-size: 13px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .data-section {
+        flex-direction: column;
+    }
+
+    .data-section > div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
